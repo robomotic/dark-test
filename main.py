@@ -1,3 +1,5 @@
+__author__ = 'James Rogan'
+
 import os
 import sys
 import getopt
