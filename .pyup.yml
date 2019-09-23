@@ -8,11 +8,16 @@ update: all
 # allowed: True, False
 pin: True
 
-# set the default branch
-# default: empty, the default branch on GitHub
-branch: master
-
 # search for requirement files
 # default: True
 # allowed: True, False
 search: True
+
+# Specify requirement files by hand, default is empty
+# default: empty
+# allowed: list
+requirements:
+  - requirements.txt:
+      # update all dependencies and pin them
+      update: all
+      pin: True
