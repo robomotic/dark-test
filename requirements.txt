@@ -1,2 +1,2 @@
-dark-magic==0.1.0
+dark-magic==0.1.2
 dateparser
